@@ -5,11 +5,24 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest"
   },
   "dependencies": {
-    "next": "^10.0.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "@types/cheerio": "0",
+    "@types/jest": "26",
+    "cheerio": "^1.0.0-rc.9",
+    "jest": "26",
+    "js-joda": "1",
+    "next": "10",
+    "persistent-cache": "1",
+    "promise-throttle": "1",
+    "react": "17",
+    "react-dom": "17",
+    "ts-jest": "26"
+  },
+  "devDependencies": {
+    "@types/react": "17",
+    "typescript": "4"
   }
 }
